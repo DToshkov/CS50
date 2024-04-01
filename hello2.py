@@ -1,3 +1,6 @@
-name = input("Whats your name?") 
+def hello(to="world"):
+    print("hello, ", to)
+    
 hello()
-print(name)
+name = input("Whats your name? ")
+hello(name)
